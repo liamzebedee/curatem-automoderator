@@ -1,5 +1,7 @@
 import { MarketService } from "./MarketService";
+import { CuratemMarket } from './CuratemMarket'
 
 export {
-    MarketService
+    MarketService,
+    CuratemMarket
 }

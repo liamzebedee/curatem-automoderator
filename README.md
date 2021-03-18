@@ -1,9 +1,12 @@
 automoderator
 =============
 
-An automoderator bot for Reddit, which connects to Ethereum prediction markets to help classify posts as spam or not spam.
+An automoderator bot for Reddit, which connects to a curatem prediction markets to help classify posts as spam or not spam.
 
- * 
+ * Detects post
+ * Creates prediction market (without posting liquidity)
+ * Read out market states
+ * Gives post a “Spam” flair if thats the market outcome
 
 ## Setup
 You will need to configure the OAuth credentials for interacting with Reddit's API.
